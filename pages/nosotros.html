@@ -1,122 +1,194 @@
 <!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <!--Iconos-->
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.3/font/bootstrap-icons.css">
-    <!--Hojas de Estilo-->
-    <link rel="stylesheet" href="../style.css">
-    <title>Cromatic Films – Nosotros</title>
-</head>
-<body>
-    <!--INICIO GRID-->
-    <div class="grid-container">
-    <!--START NAV-->
-        <nav class="w-1 d-flex justify-content-between">
-            <div class="nav-logo">
-                <a href="index.html"><img class="img-60" src="../img/cromatic-films-logo-white.svg" alt="Logotipo Cromatic Films"></a>
+<html lang="es-CL">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Cromatic Films - Portafolio</title>
+
+        <!--Iconos-->
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.3/font/bootstrap-icons.css">
+    
+        <!-- Bootstrap CSS -->
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+
+        <!-- Animate CSS -->
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
+
+        <!--Hojas de Estilo-->
+        <link rel="stylesheet" href="../style.css">
+    </head>
+    <body class="bg-black">
+    <!--**TOP NAV Only MD-->
+        <div class="topNav container d-none d-sm-none d-md-flex justify-content-end" role="navigation">
+            <div class="d-flex flex-row align-items-center">
+                <div class="p-1">
+                    <p class="text-white mb-0">Síguenos</p>
+                </div>
+                <div class="p-1">
+                    <a href="https://www.instagram.com/cromatic.film/" target="_blank"><i class="text-white bi bi-instagram"></i></a>
+                </div>
+                <div class="p-1">                
+                    <a href="https://vimeo.com/showcase/8887943" target="_blank"><i class="text-white bi bi-vimeo"></i></a>
+                </div>
+                <div class="p-1">
+                    <a href="mailto:cromatic.film@gmail.com"><i class="text-white bi bi-envelope"></i></a>
+                </div>
             </div>
-            <ul class="d-flex">
-                <li><a href="../index.html">Home</a></li>
-                <li><a class="active" href="nosotros.html">Nosotros</a></li>
-                <li><a href="servicios.html">Servicios</a></li>
-                <li><a href="portafolio.html">Portafolio</a></li>
-                <li><a href="contacto.html">Contacto</a></li>
-            </ul>
+        </div>
+    <!--END TOP NAV Only MD**-->
+    <!--**Main NAV-->
+        <nav class="mainNav container-fluid navbar navbar-dark navbar-expand-md sticky-top bg-black z-3">
+            <div class="container">
+                <a class="navbar-brand" href="../index.html"><img src="../img/cromatic-films-logo-white.svg" class="img-50" alt="Logotipo Cromatic Films"></a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                        <li class="nav-item"><a class="nav-link" aria-current="page" href="../index.html">Home</a></li>
+                        <li class="nav-item"><a class="nav-link active" href="nosotros.html">Nosotros</a></li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="servicios.html" id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">Servicios</a>
+                                <ul class="dropdown-menu bg-black" aria-labelledby="navbarDropdownMenuLink">
+                                    <li><a href="#" class="dropdown-item text-white">Videoclip Lite</a></li>
+                                    <li><a href="#" class="dropdown-item text-white">Videoclip Classic</a></li>
+                                    <li><a href="#" class="dropdown-item text-white">Videoclip Pro</a></li>
+                                    <li><hr class="dropdown-divider"></li>
+                                    <li><a href="servicios.html" class="dropdowm-item text-orange text-center">Ver Todos</a></li>
+                                </ul>
+                        </li>
+
+                        <li class="nav-item"><a class="nav-link" href="portafolio.html">Portafolio</a></li>
+                        <li class="nav-item"><a class="nav-link" href="contacto.html">Contacto</a></li>
+                    </ul>
+                </div>
+            </div>
         </nav>
-    <!--END NAV-->
-    <!--START HEADER-->
-        <header class="d-flex align-items-end bg-dark header-pages">
-            <h1 class="w-3 text-white">Sobre Cromatic Films</h1>
-            <img class="w-1" src="../img/sobre-cromatic-films.jpg" alt="Jornada de grabación de videoclip en Santiago de Chile">
-        </header>
-    <!--END HEADER-->
-    <!--START MAIN-->
-        <main>
-    <!--START SECTION CÓMO FUNCIONA-->
-            <section class="como-funciona d-flex wrap align-items-center justify-content-center">
-                <figure class="produccion w-2">
-                    <img src="https://dummyimage.com/400x500/000/fff" alt="Producción del Videoclip">
-                </figure>
-                <figcaption class="w-2">
-                    <h2>Producción</h2>
-                    <p>Aquí es donde bajamos la idea a tierra y te asesoramos para optimizar costos al máximo y sacarle el jugo a la jornada de grabación. Te ayudamos también a encontrar y conectar con otros personajes del medio que te pueden asesorar en ámbitos como maquillaje y peinado, vestuario y decoración o scouting de locaciones.</p>
-                </figcaption>
-                <figcaption class="w-2">
-                    <h2>Grabación</h2>
-                    <p>El gran día. Nos encargamos de seguir al pie de la letra el plan de grabación para obtener todo el material necesario para edición. Aquí la etapa se extenderá de acuerdo a la cantidad de jornadas de grabación que contemple el servicio contratado o las locaciones programadas. 
-                        <button class="d-block bg-orange"><a href="servicios.html">Conoce Nuestros servicios</a></button>
-                    </p>
-                </figcaption>
-                <figure class="grabacion w-2">
-                    <img src="https://dummyimage.com/400x500/000/fff" alt="Grabación del Videoclip">
-                </figure>
-                <figure class="edicion w-2">
-                    <img src="https://dummyimage.com/400x500/000/fff" alt="Grabación del Videoclip">
-                </figure>
-                <figcaption class="w-2">
-                    <h2>Edición</h2>
-                    <p>Aquí tu videoclip cobrará forma, hacemos el montaje, edición y corrección de color para el videoclip. <br> Dependiendo del servicio que contrates, podrás tener diferentes instancias de corrección para lograr el resultado deseado.
-                    </p>
-                    <h2>Lanzamiento</h2>
-                    <p>También te ayudamos a gestionar el lanzamiento de tu videoclip, entregándote una asesoría y estrategias para aprovechar el material que hemos generado y lograr la máxima tracción de nuevos seguidores.</p>
-                </figcaption>
-            </section>
-    <!--START SECTION EQUIPO-->
-            <section class="equipo d-flex wrap justify-content-center bg-yellow">
-                <div class="header-equipo w-1 text-center">
-                    <h2>Nuestro Equipo</h2>
-                    <p>Conoce a quienes forman parte de nuestra empresa y que será parte de toda la planificación de tu próximo videoclip.</p>
+    <!--END Main NAV-->
+    <header>
+        <section class="portafolioBreadcrumb container-fluid">
+            <div class="row align-items-end">
+                <div class="title-marquee bg-yellow text-white py-2">
+                    <div class="col d-none d-sm-block">Sobre</div>
+                    <div class="col d-none d-sm-block">Cromatic</div>
+                    <div class="col">Sobre</div>
+                    <div class="col">Cromatic</div>
+                    <div class="col">Sobre</div>
+                    <div class="col">Cromatic</div>
+                    <div class="col">Sobre</div>
+                    <div class="col">Cromatic</div>
+                    <div class="col">Sobre</div>
+                    <div class="col">Cromatic</div>
                 </div>
-                <div class="team-card w-3">
-                    <figure>
-                        <img class="d-block" src="https://dummyimage.com/200x200/000/fff" alt="Fabián Ibarra - Equipo Cromatic Films">
-                    </figure>
-                    <figcaption class="text-center">
-                        <h3>Fabián Ibarra A.</h3>
-                        <p>Director de fotografía, cinematógrafo y músico con más de 7 años de experiencia en el mundo audiovisual, grabando para eventos, matrimonios, conciertos y otras producciones.</p>
-                        <strong><a href="mailto:f.ibarra@holymonkey.cl">f.ibarra@holymonkey.cl</a></strong>
-                        <button class="bg-dark d-block">
-                            <a href="https://www.instagram.com/rhoadiemusic/">Conecta en Instagram</a>
-                        </button>
-                    </figcaption>
-                </div>
-                <div class="team-card w-3">
-                    <figure>
-                        <img class="d-block" src="https://dummyimage.com/200x200/000/fff" alt="Fabián Ibarra - Equipo Cromatic Films">
-                    </figure>
-                    <figcaption class="text-center">
-                        <h3>Macarena Fuentes S.</h3>
-                        <p>Productora y Diseñadora con más de 6 años de experiencia, también en el campo audiovisual y producción para videos corporativos, eventos y videoclips</p>
-                        <strong><a href="mailto:m.fuentes@holymonkey.cl">m.fuentes@holymonkey.cl</a></strong>
-                        <button class="bg-dark d-block">
-                            <a href="https://www.instagram.com/heeeeeeybaby/">Conecta en Instagram</a>
-                        </button>
-                    </figcaption>
-                </div>
-            </section>
-        </main>
+            </div>
+
+        </section>
+    </header>
+    <!--**Player-->
+    <div class="playerHome d-flex rounded-pill align-items-center justify-content-center fixed-bottom col-3 col-sm-2 col-lg-2 col-xl-1 bg-yellow text-dark px-2 py-2">
+        <div class="px-1"><i class="bi bi-play-fill"></i></div>
+        <div class="px-1 uppercase"><h6>Player</h6></div>
+    </div>
+    <!--END Player-->
+    <main>
+
+
+        <!--START SECTION CÓMO FUNCIONA-->
+        <section class="como-funciona d-flex wrap align-items-center justify-content-center">
+            <figure class="produccion w-2">
+                <img src="https://dummyimage.com/400x500/000/fff" alt="Producción del Videoclip">
+            </figure>
+            <figcaption class="w-2">
+                <h2>Producción</h2>
+                <p>Aquí es donde bajamos la idea a tierra y te asesoramos para optimizar costos al máximo y sacarle el jugo a la jornada de grabación. Te ayudamos también a encontrar y conectar con otros personajes del medio que te pueden asesorar en ámbitos como maquillaje y peinado, vestuario y decoración o scouting de locaciones.</p>
+            </figcaption>
+            <figcaption class="w-2">
+                <h2>Grabación</h2>
+                <p>El gran día. Nos encargamos de seguir al pie de la letra el plan de grabación para obtener todo el material necesario para edición. Aquí la etapa se extenderá de acuerdo a la cantidad de jornadas de grabación que contemple el servicio contratado o las locaciones programadas. 
+                    <button class="d-block bg-orange"><a href="servicios.html">Conoce Nuestros servicios</a></button>
+                </p>
+            </figcaption>
+            <figure class="grabacion w-2">
+                <img src="https://dummyimage.com/400x500/000/fff" alt="Grabación del Videoclip">
+            </figure>
+            <figure class="edicion w-2">
+                <img src="https://dummyimage.com/400x500/000/fff" alt="Grabación del Videoclip">
+            </figure>
+            <figcaption class="w-2">
+                <h2>Edición</h2>
+                <p>Aquí tu videoclip cobrará forma, hacemos el montaje, edición y corrección de color para el videoclip. <br> Dependiendo del servicio que contrates, podrás tener diferentes instancias de corrección para lograr el resultado deseado.
+                </p>
+                <h2>Lanzamiento</h2>
+                <p>También te ayudamos a gestionar el lanzamiento de tu videoclip, entregándote una asesoría y estrategias para aprovechar el material que hemos generado y lograr la máxima tracción de nuevos seguidores.</p>
+            </figcaption>
+        </section>
+<!--START SECTION EQUIPO-->
+        <section class="equipo d-flex wrap justify-content-center bg-yellow">
+            <div class="header-equipo w-1 text-center">
+                <h2>Nuestro Equipo</h2>
+                <p>Conoce a quienes forman parte de nuestra empresa y que será parte de toda la planificación de tu próximo videoclip.</p>
+            </div>
+            <div class="team-card w-3">
+                <figure>
+                    <img class="d-block" src="https://dummyimage.com/200x200/000/fff" alt="Fabián Ibarra - Equipo Cromatic Films">
+                </figure>
+                <figcaption class="text-center">
+                    <h3>Fabián Ibarra A.</h3>
+                    <p>Director de fotografía, cinematógrafo y músico con más de 7 años de experiencia en el mundo audiovisual, grabando para eventos, matrimonios, conciertos y otras producciones.</p>
+                    <strong><a href="mailto:f.ibarra@holymonkey.cl">f.ibarra@holymonkey.cl</a></strong>
+                    <button class="bg-dark d-block">
+                        <a href="https://www.instagram.com/rhoadiemusic/">Conecta en Instagram</a>
+                    </button>
+                </figcaption>
+            </div>
+            <div class="team-card w-3">
+                <figure>
+                    <img class="d-block" src="https://dummyimage.com/200x200/000/fff" alt="Fabián Ibarra - Equipo Cromatic Films">
+                </figure>
+                <figcaption class="text-center">
+                    <h3>Macarena Fuentes S.</h3>
+                    <p>Productora y Diseñadora con más de 6 años de experiencia, también en el campo audiovisual y producción para videos corporativos, eventos y videoclips</p>
+                    <strong><a href="mailto:m.fuentes@holymonkey.cl">m.fuentes@holymonkey.cl</a></strong>
+                    <button class="bg-dark d-block">
+                        <a href="https://www.instagram.com/heeeeeeybaby/">Conecta en Instagram</a>
+                    </button>
+                </figcaption>
+            </div>
+        </section>
     <!--END MAIN-->
-    <!--START FOOTER-->
-        <footer class="footer-hero-img">
-            <div class="d-flex wrap justify-content-center">
-                <h2 class="w-1 display-1 text-white text-center">¿Ya tienes tu próximo single en mente?</h2>
-                <button class="w-8 bg-orange">
-                    <a href="contacto.html">Contáctanos</a>
+    </main>
+    <!--**Footer-->
+    <footer class="container-fluid footer-hero-img py-5">
+        <div class="row justify-content-center align-items-center">
+            <div class="col-10 col-md-6 text-center">
+                <h2 class="h1 text-white">¿Ya tienes tu próximo single en mente?</h2>
+                <button type="button" class="btn btn-primary">
+                    <a class="text-white" href="pages/contacto.html">Contáctanos</a>
                 </button>
             </div>
-            <div class="footer-redes d-flex wrap align-items-center justify-content-center h-15">
-                <h4 class="w-1 text-white text-center">Encuéntranos también en redes sociales</h4>
+            <div class="col-10 col-md-6 text-center">
+                <h4 class="text-white">Encuéntranos también en redes sociales</h4>
                 <a href="https://www.instagram.com/cromatic.film/" target="_blank"><i class="text-white bi bi-instagram"></i></a>
                 <a href="https://vimeo.com/showcase/8887943" target="_blank"><i class="text-white bi bi-vimeo"></i></a>
                 <a href="mailto:cromatic.film@gmail.com"><i class="text-white bi bi-envelope"></i></a>
                 <address class="w-1 text-white-70 text-center">Providencia, Santiago de Chile</address>
             </div>
-            <small class="w-1 text-center text-white-50">Copywriting 2022. Cromatic Films, Todos los derechos reservados</small>
-        </footer>
-    <!--END FOOTER-->
-    </div>
-</body>
+        </div>
+    </footer>
+<!--END FOOTER-->
+    <section class="container-fluid bg-black">
+        <div class="row">
+            <small class="col-12 text-center text-white-50">Copywriting 2022. Cromatic Films, Todos los derechos reservados</small>
+        </div>
+    </section>
+    <!--**Scripts-->     
+        <!-- Bootstrap JS -->
+        <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.5/dist/umd/popper.min.js" integrity="sha384-Xe+8cL9oJa6tN/veChSP7q+mnSPaj5Bcu9mPX5F5xIGE0DVittaqT5lorf0EI7Vk" crossorigin="anonymous"></script>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.min.js" integrity="sha384-kjU+l4N0Yf4ZOJErLsIcvOU2qSb74wXpOhqTvwVx3OElZRweTnQ6d31fXEoRD1Jy" crossorigin="anonymous"></script>
+        <!--WOW Js-->
+        <script src="js/wow.min.js"></script>
+        <script>new WOW().init();</script>
+    <!--END SCRIPT--> 
+    </body> 
 </html>

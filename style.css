@@ -138,6 +138,7 @@ nav .active{
     background-size: cover;
     background-position: center center;
 }
+
 /* ALTERANDO CLASES BOOSTRAP */
 .carousel-caption {
     position: initial;
@@ -189,6 +190,16 @@ nav .active{
     align-items: center;
     overflow: hidden;
 }
+
+/* PORTAFOLIO.HTML */
+
+.portafolioBreadcrumb{
+    background:url('img/sobre-cromatic-films.jpg');
+    background-size: cover;
+    background-position: top center;
+    height: 19rem;
+}
+
 
 /*--**************MEDIA QUERY**************--*/
 

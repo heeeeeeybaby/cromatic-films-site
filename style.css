@@ -200,6 +200,23 @@ nav .active{
     height: 19rem;
 }
 
+/* NOSOTROS.HTML */
+.comoFuncionaSection__card{
+    padding: 5% 0;
+}
+
+.comoFuncionaSection__text{
+    top: -22rem;
+}
+
+.comoFuncionaSection__img::before{
+    content: '';
+    background-color: var(--black-70);
+    position: absolute;
+    width: 300px;
+    height: 500px;
+}
+
 
 /*--**************MEDIA QUERY**************--*/
 
@@ -260,6 +277,16 @@ nav .active{
         bottom: 5rem;
         left: 41rem !important;
     }
+    /* NOSOTROS.HTML */
+    .comoFuncionaSection__img::before{
+        background-color: transparent;
+    }
+    .comoFuncionaSection__text{
+        top: 0;
+    }
+    .comoFuncionaSection__card:nth-child(odd) .comoFuncionaSection__text{
+        left: 2rem;
+    }
 }
 
 /*Large devices (desktops, 992px and up)*/
@@ -276,10 +303,11 @@ nav .active{
 /* ALTERANDO CLASES BOOSTRAP */
 
 /* INDEX.HTML */
-.playerHome {
-    bottom: 6rem;
-    left: 65rem !important;
-}
+    .playerHome {
+        bottom: 6rem;
+        left: 65rem !important;
+    }
+
 }
 
 /*X-Large devices (large desktops, 1200px and up)*/

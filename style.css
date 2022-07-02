@@ -194,9 +194,9 @@ nav .active{
 /* PORTAFOLIO.HTML */
 
 .portafolioBreadcrumb{
-    background:url('img/sobre-cromatic-films.jpg');
+    background:url('img/grabacion-de-videoclip-daniela-jatib-cromatic-films.jpg');
     background-size: cover;
-    background-position: top center;
+    background-position: center center;
     height: 19rem;
 }
 
@@ -216,7 +216,9 @@ nav .active{
     width: 300px;
     height: 500px;
 }
-
+.equipoSection__img img{
+    border-radius: 50%;
+}
 
 /*--**************MEDIA QUERY**************--*/
 

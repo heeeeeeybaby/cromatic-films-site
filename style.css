@@ -201,6 +201,13 @@ nav .active{
 }
 
 /* NOSOTROS.HTML */
+.nosotrosBreadcrumb{
+    background:url('img/grabacion-de-videoclip-daniela-jatib-cromatic-films.jpg');
+    background-size: cover;
+    background-position: center center;
+    height: 19rem;
+}
+
 .comoFuncionaSection__card{
     padding: 5% 0;
 }
@@ -218,6 +225,14 @@ nav .active{
 }
 .equipoSection__img img{
     border-radius: 50%;
+}
+
+/* SERVICIOS.HTML */
+.serviciosBreadcrumb{
+    background-image: url('img/elige-tu-videoclip-img.jpg');
+    background-size: cover;
+    background-position: center center;
+    height: 19rem;
 }
 
 /*--**************MEDIA QUERY**************--*/

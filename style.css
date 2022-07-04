@@ -294,7 +294,7 @@ nav .active{
         bottom: 5rem;
         left: 41rem !important;
     }
-    /* NOSOTROS.HTML */
+/* NOSOTROS.HTML */
     .comoFuncionaSection__img::before{
         background-color: transparent;
     }
@@ -304,6 +304,10 @@ nav .active{
     .comoFuncionaSection__card:nth-child(odd) .comoFuncionaSection__text{
         left: 2rem;
     }
+/* SERVICIOS.HTML */
+.serviciosSection__servicios:nth-child(odd) .serviciosSection__card{
+    margin-right: 2rem !important;
+}
 }
 
 /*Large devices (desktops, 992px and up)*/

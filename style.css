@@ -11,6 +11,7 @@
 /*-----Declarando Variables-----*/
 :root{
     --orange:#FA5510;
+    --orange-hover:#cc4105;
     --yellow:#E1AA19;
     --blue:#4DA1CD;
     --blue-70:#4da1cded;
@@ -79,6 +80,28 @@
     font-size: 1.5rem;
     text-transform: uppercase;
     letter-spacing: 0.06rem;
+}
+
+a{
+    text-decoration: none;
+    color: var(--white);
+    border: none;
+}
+a:hover{
+    color: var(--white-50);
+}
+button{
+    border: none;
+    border-color: none;
+}
+button:hover{
+    border: none;
+}
+.btn-primary{
+    border-color: none;
+}
+.btn-primary:hover{
+    background-color: var(--orange-hover);
 }
 
 /*-----Ajustes Generales-----*/

@@ -1,0 +1,24 @@
+{
+  "name": "desafio-sass",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "compile-sass": "sass --watch scss/style.scss css/style.css"
+
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/heeeeeeybaby/cromatic-films-site.git"
+  },
+  "author": "mpfs",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/heeeeeeybaby/cromatic-films-site/issues"
+  },
+  "homepage": "https://github.com/heeeeeeybaby/cromatic-films-site#readme",
+  "dependencies": {
+    "nodemon": "^2.0.19",
+    "sass": "^1.53.0"
+  }
+}

@@ -1,0 +1,94 @@
+// Estilos Tipográficos
+
+.display-1{
+    font-size: 2.5rem;
+    padding: 0% 16%;
+    line-height: 3.3rem;
+}
+
+.small-caps{
+    font-family: 'Rubik Mono One';
+    font-size: 1.17rem;
+    letter-spacing: 0.02rem;
+}
+
+.subtitle-caps{
+    font-family:'Questrial', monospace;
+    font-size: 1.5rem;
+    text-transform: uppercase;
+    letter-spacing: 0.06rem;
+}
+
+a{
+    text-decoration: none;
+    color: $white;
+    border: none;
+}
+a:hover{
+    color: $white-50;
+}
+button{
+    border: none;
+    border-color: none;
+}
+button:hover{
+    border: none;
+}
+.btn-primary{
+    border-color: none;
+}
+.btn-primary:hover{
+    background-color: $orange-hover;
+}
+
+
+html{
+    font-family: $ff-questrial;
+    line-height: 1.4rem;
+}
+
+h1{
+font-size: 2.9rem;
+line-height: 3.7rem;
+}
+
+h2 {
+    font-family: $ff-rubik;
+    font-size: 1.8rem;
+    line-height: 2.2rem;
+}
+
+// NAV 
+
+nav{
+    position: fixed;
+    padding: 0.5rem 0;
+}
+
+nav a{
+    padding-bottom: 0.6rem;
+    color: $white;
+    text-decoration: none;
+    text-transform: uppercase;
+    letter-spacing: 0.05rem;
+    font-size: 0.87rem;
+}
+    nav a:hover{
+        color: $orange;
+        border-bottom: $orange solid 1px;
+    }
+
+    .nav-logo a:hover{
+        border-bottom: none;
+    }
+
+nav .active{
+    color: $orange;
+    border-bottom: $orange solid 1px;
+}
+
+.footer-hero-img{
+    background:url('img/footer-img.jpeg');
+    background-size: cover;
+    background-position: center center;
+}

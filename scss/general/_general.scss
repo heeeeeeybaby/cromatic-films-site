@@ -7,13 +7,13 @@
 }
 
 .small-caps{
-    font-family: 'Rubik Mono One';
+    font-family: $ff-rubik;
     font-size: 1.17rem;
     letter-spacing: 0.02rem;
 }
 
 .subtitle-caps{
-    font-family:'Questrial', monospace;
+    font-family:$ff-questrial;
     font-size: 1.5rem;
     text-transform: uppercase;
     letter-spacing: 0.06rem;
@@ -88,7 +88,7 @@ nav .active{
 }
 
 .footer-hero-img{
-    background:url('img/footer-img.jpeg');
+    background:url('../../img/footer-img.jpeg');
     background-size: cover;
     background-position: center center;
 }

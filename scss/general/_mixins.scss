@@ -1,0 +1,40 @@
+// Small devices (landscape phones, 576px and up)
+@mixin small {
+    @media (min-width: 576px){
+        @content;
+    }    
+}
+@mixin small-bug {
+    @media (min-width: 608px) and (max-width: 690px) {
+        @content;
+    }
+}
+
+// Tablets 
+@mixin tablet {
+    @media (min-width: 768px){
+        @content;
+    }    
+}
+
+// LG
+@mixin large {
+    @media (min-width: 992px) { 
+        @content;
+    }
+}
+
+//XL
+@mixin extraLarge {
+    @media (min-width: 1200px) {
+        @content;
+    }
+    
+}
+//XXL
+@mixin extraXLarge {
+    @media (min-width: 1400px) {
+        @content;
+    }
+    
+}

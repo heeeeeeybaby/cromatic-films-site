@@ -1,0 +1,117 @@
+.home-hero-title{
+    z-index:2;
+    margin-top: 1%;
+    padding: 2% 5%;
+}
+
+.clip-rombo{
+    clip-path: polygon(50% 0%, 100% 50%, 50% 100%, 0% 50%);
+}
+
+.playerHome {
+    bottom: 5rem;
+    left: 29rem !important;
+    transform: rotate(-90deg);
+
+    @include small {
+        bottom: 4rem;
+        left: 35rem !important;
+    }
+    @include small-bug{
+        bottom: 4rem;
+        left: 32rem !important;
+    }
+    @include tablet {
+        bottom: 5rem;
+        left: 41rem !important;
+    }
+    @include large{
+        bottom: 6rem;
+        left: 65rem !important;
+    }
+    @include extraLarge{
+        bottom: 3rem;
+        left: 67rem !important;
+    }
+    @include extraXLarge{
+        bottom: 5rem;
+        left: 79rem !important;
+    }
+
+}
+
+.metodologiaRow{
+    top: -2rem;
+}
+
+.title-marquee {
+    position: relative;
+    display: flex;
+    padding-left: 0;
+    padding-right: 0;
+    font-family: $ff-tech;
+    text-transform: uppercase;
+    align-items: center;
+    overflow: hidden;
+}
+
+/* PORTAFOLIO.HTML */
+
+.portafolioBreadcrumb{
+    background:url('../../img/grabacion-de-videoclip-daniela-jatib-cromatic-films.jpg');
+    background-size: cover;
+    background-position: center center;
+    height: 19rem;
+}
+
+/* NOSOTROS.HTML */
+.nosotrosBreadcrumb{
+    background:url('../../img/grabacion-de-videoclip-daniela-jatib-cromatic-films.jpg');
+    background-size: cover;
+    background-position: center center;
+    height: 19rem;
+}
+
+.comoFuncionaSection{
+    &__card{
+            padding: 5% 0;
+        }
+    &__text{
+        top: -22rem;
+        @include tablet{
+            top: 0;
+        }
+    }
+    &__card:nth-child(odd) .comoFuncionaSection__text{
+        @include tablet{
+            left: 2rem;
+        }
+    }
+    &__img::before{
+        content: '';
+        background-color: $black-70;
+        position: absolute;
+        width: 300px;
+        height: 500px;
+        @include tablet{
+            background-color: transparent;
+        }
+    }
+}
+
+.equipoSection__img img{
+    border-radius: 50%;
+}
+
+// Servicios Page
+.serviciosBreadcrumb{
+    background-image: url('../../img/elige-tu-videoclip-img.jpg');
+    background-size: cover;
+    background-position: center center;
+    height: 19rem;
+}
+.serviciosSection__servicios:nth-child(odd) .serviciosSection__card{
+    @include tablet{
+        margin-right: 2rem !important;
+    }
+}

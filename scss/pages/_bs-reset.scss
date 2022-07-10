@@ -1,0 +1,20 @@
+//Alterando clases boostrap
+
+.carousel-caption {
+    position: initial;
+    text-align: right;
+}
+.carousel-indicators{
+    justify-content: flex-start;
+}
+.dropdown-item:focus, .dropdown-item:hover {
+    color: #1e2125;
+    background-color: $orange;
+}
+.btn-primary {
+    background-color: $orange;
+    border-color: transparent;
+    text-decoration: none;
+    border-radius: 40px;
+    padding: 2% 4%;
+}

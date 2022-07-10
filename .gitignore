@@ -1,2 +1,4 @@
 .DS_store
 /.vscode
+style-backup.css
+/node_modules

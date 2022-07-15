@@ -1,0 +1,36 @@
+// Tipografías
+@import url('https://fonts.googleapis.com/css2?family=Rubik+Mono+One&family=Share+Tech+Mono&display=swap');
+@import url("https://use.typekit.net/ucc8you.css");
+
+$ff-rubik:'Rubik Mono One', sans-serif;
+$ff-tech: 'Share Tech Mono', monospace;
+$ff-eiger:'eigerdals',sans-serif;
+
+@mixin font-face($fs) {
+    font-size: $fs;
+    line-height: $fs + 0.6;   
+}
+
+// Estilos Tipográficos
+
+body{
+    font-family: $ff-eiger;
+    @include font-face (1rem);
+}
+
+h2 {
+    font-family: $ff-rubik;
+}
+
+h4{
+    @extend h2;
+    letter-spacing: 0.02rem;
+
+}
+
+.subtitle-caps{
+    font-size: 1.5rem;
+    text-transform: uppercase;
+    letter-spacing: 0.06rem;
+}
+

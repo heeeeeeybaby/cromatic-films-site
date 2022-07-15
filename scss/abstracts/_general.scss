@@ -1,0 +1,57 @@
+a{
+    text-decoration: none;
+    color: $light;
+    border: none;
+        &:hover{
+            color: $light-50;
+        }
+}
+
+button {
+    border: none;
+    border-color: none;
+        &:hover{
+            @extend button;
+        }
+}
+.btn-primary{
+    border-color: none;
+    &:hover{
+        background-color: $primary-hover;
+    }
+}
+
+// EXTENDS
+
+%color-primary{
+    color: $primary;
+    border-bottom: $primary solid 1px;
+} 
+
+// NAV 
+
+nav{
+    position: fixed;
+    padding: 0.5rem 0;
+
+    a{
+        padding-bottom: 0.6rem;
+        color: $light;
+        text-decoration: none;
+        text-transform: uppercase;
+        @include font-face(0.87rem);
+        letter-spacing: 0.05rem;
+
+        &:hover{
+            @extend %color-primary;
+        }
+    }
+
+    .active{
+        @extend %color-primary;
+    }
+    .navbar-brand a:hover{
+        border-bottom: none;
+    }
+
+}

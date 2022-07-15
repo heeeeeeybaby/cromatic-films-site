@@ -1,0 +1,59 @@
+/// UTILITES PARA POSICIÓN
+
+// Genera clases de posición en eje Z
+@for $i from -3 through 3 {
+    .z-#{$i}{
+        z-index: $i;
+    }
+}
+// Genera clases de posición para elementos 
+
+$align:(relative,fixed);
+
+@each $key in $align {
+    .#{$key}{
+        position: $key;
+    }
+}
+
+/// UTILITIES PARA TAMAÑO
+
+@for $i from 1 through 10 {
+   .img-#{$i * 10} {
+      width:($i * 10%);
+    }
+    .w-#{$i * 10} {
+        width:($i * 10%);
+    }
+}
+
+@for $i from 6 through 10 {
+    .py-#{$i} {
+       padding-top: 0.5rem + ($i * 0.5rem);
+       padding-bottom: 0.5rem + ($i * 0.5rem);
+    }
+    .px-#{$i} {
+        padding-left:0.5rem + ($i * 0.25rem);
+        padding-right:0.5rem + ($i * 0.25rem);
+    }
+    .pt-#{$i} {
+        padding-top:0.5rem + ($i * 0.5rem);
+    }
+    .pb-#{$i} {
+        padding-bottom:0.5rem + ($i * 0.5rem);
+    }
+    .my-#{$i} {
+        margin-top:0.5rem + ($i * 0.25rem);
+        margin-bottom:0.5rem + ($i * 0.25rem);
+    }
+    .mx-#{$i} {
+         margin-left:0.5rem + ($i * 0.25rem);
+         margin-right:0.5rem + ($i * 0.25rem);
+    }
+    .mt-#{$i} {
+         margin-top:0.5rem + ($i * 0.5rem);
+    }
+    .mb-#{$i} {
+         margin-bottom:0.5rem + ($i * 0.5rem);
+    }
+}

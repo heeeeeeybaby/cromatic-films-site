@@ -1,88 +1,37 @@
-@import url("https://fonts.googleapis.com/css2?family=Questrial&family=Rubik+Mono+One&family=Share+Tech+Mono&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Rubik+Mono+One&family=Share+Tech+Mono&display=swap");
+@import url("https://use.typekit.net/ucc8you.css");
 * {
   margin: 0px;
   padding: 0px;
   box-sizing: border-box;
 }
 
-.bg-light {
-  background-color: var(--white);
+.z--3 {
+  z-index: -3;
 }
 
-.bg-dark {
-  background-color: var(--black);
+.z--2 {
+  z-index: -2;
 }
 
-.bg-black {
-  background-color: #000;
+.z--1 {
+  z-index: -1;
 }
 
-.bg-orange {
-  background-color: var(--orange);
+.z-0 {
+  z-index: 0;
 }
 
-.bg-blue {
-  background-color: var(--blue);
+.z-1 {
+  z-index: 1;
 }
 
-.bg-yellow {
-  background-color: var(--yellow);
+.z-2 {
+  z-index: 2;
 }
 
-.text-white {
-  color: var(--white);
-}
-
-.text-white-70 {
-  color: var(--white-70);
-}
-
-.text-white-50 {
-  color: var(--white-50);
-}
-
-.text-dark {
-  color: var(--black);
-}
-
-.text-blue {
-  color: var(--blue);
-}
-
-.text-orange {
-  color: var(--orange);
-}
-
-.text-yellow {
-  color: var(--yellow);
-}
-
-.uppercase {
-  text-transform: uppercase;
-}
-
-.border-blue {
-  border-color: var(--blue);
-}
-
-.img-40 {
-  width: 40%;
-}
-
-.img-50 {
-  width: 50%;
-}
-
-.img-60 {
-  width: 60%;
-}
-
-.w-30 {
-  width: 30%;
-}
-
-.w-40 {
-  width: 40%;
+.z-3 {
+  z-index: 3;
 }
 
 .relative {
@@ -93,47 +42,440 @@
   position: fixed;
 }
 
-.z-3 {
-  z-index: 3;
+.img-10 {
+  width: 10%;
 }
 
-.z-2 {
-  z-index: 2;
+.w-10 {
+  width: 10%;
 }
 
-.z-1 {
-  z-index: 1;
+.img-20 {
+  width: 20%;
 }
 
-.z--1 {
-  z-index: -1;
+.w-20 {
+  width: 20%;
 }
 
-.z--2 {
-  z-index: -2;
+.img-30 {
+  width: 30%;
 }
 
-.z--3 {
-  z-index: -3;
+.w-30 {
+  width: 30%;
 }
 
-.display-1 {
-  font-size: 2.5rem;
-  padding: 0% 16%;
-  line-height: 3.3rem;
+.img-40 {
+  width: 40%;
 }
 
-.small-caps {
-  font-family: "Rubik Mono One";
-  font-size: 1.17rem;
+.w-40 {
+  width: 40%;
+}
+
+.img-50 {
+  width: 50%;
+}
+
+.w-50 {
+  width: 50%;
+}
+
+.img-60 {
+  width: 60%;
+}
+
+.w-60 {
+  width: 60%;
+}
+
+.img-70 {
+  width: 70%;
+}
+
+.w-70 {
+  width: 70%;
+}
+
+.img-80 {
+  width: 80%;
+}
+
+.w-80 {
+  width: 80%;
+}
+
+.img-90 {
+  width: 90%;
+}
+
+.w-90 {
+  width: 90%;
+}
+
+.img-100 {
+  width: 100%;
+}
+
+.w-100 {
+  width: 100%;
+}
+
+.py-6 {
+  padding-top: 3.5rem;
+  padding-bottom: 3.5rem;
+}
+
+.px-6 {
+  padding-left: 2rem;
+  padding-right: 2rem;
+}
+
+.pt-6 {
+  padding-top: 3.5rem;
+}
+
+.pb-6 {
+  padding-bottom: 3.5rem;
+}
+
+.my-6 {
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+}
+
+.mx-6 {
+  margin-left: 2rem;
+  margin-right: 2rem;
+}
+
+.mt-6 {
+  margin-top: 3.5rem;
+}
+
+.mb-6 {
+  margin-bottom: 3.5rem;
+}
+
+.py-7 {
+  padding-top: 4rem;
+  padding-bottom: 4rem;
+}
+
+.px-7 {
+  padding-left: 2.25rem;
+  padding-right: 2.25rem;
+}
+
+.pt-7 {
+  padding-top: 4rem;
+}
+
+.pb-7 {
+  padding-bottom: 4rem;
+}
+
+.my-7 {
+  margin-top: 2.25rem;
+  margin-bottom: 2.25rem;
+}
+
+.mx-7 {
+  margin-left: 2.25rem;
+  margin-right: 2.25rem;
+}
+
+.mt-7 {
+  margin-top: 4rem;
+}
+
+.mb-7 {
+  margin-bottom: 4rem;
+}
+
+.py-8 {
+  padding-top: 4.5rem;
+  padding-bottom: 4.5rem;
+}
+
+.px-8 {
+  padding-left: 2.5rem;
+  padding-right: 2.5rem;
+}
+
+.pt-8 {
+  padding-top: 4.5rem;
+}
+
+.pb-8 {
+  padding-bottom: 4.5rem;
+}
+
+.my-8 {
+  margin-top: 2.5rem;
+  margin-bottom: 2.5rem;
+}
+
+.mx-8 {
+  margin-left: 2.5rem;
+  margin-right: 2.5rem;
+}
+
+.mt-8 {
+  margin-top: 4.5rem;
+}
+
+.mb-8 {
+  margin-bottom: 4.5rem;
+}
+
+.py-9 {
+  padding-top: 5rem;
+  padding-bottom: 5rem;
+}
+
+.px-9 {
+  padding-left: 2.75rem;
+  padding-right: 2.75rem;
+}
+
+.pt-9 {
+  padding-top: 5rem;
+}
+
+.pb-9 {
+  padding-bottom: 5rem;
+}
+
+.my-9 {
+  margin-top: 2.75rem;
+  margin-bottom: 2.75rem;
+}
+
+.mx-9 {
+  margin-left: 2.75rem;
+  margin-right: 2.75rem;
+}
+
+.mt-9 {
+  margin-top: 5rem;
+}
+
+.mb-9 {
+  margin-bottom: 5rem;
+}
+
+.py-10 {
+  padding-top: 5.5rem;
+  padding-bottom: 5.5rem;
+}
+
+.px-10 {
+  padding-left: 3rem;
+  padding-right: 3rem;
+}
+
+.pt-10 {
+  padding-top: 5.5rem;
+}
+
+.pb-10 {
+  padding-bottom: 5.5rem;
+}
+
+.my-10 {
+  margin-top: 3rem;
+  margin-bottom: 3rem;
+}
+
+.mx-10 {
+  margin-left: 3rem;
+  margin-right: 3rem;
+}
+
+.mt-10 {
+  margin-top: 5.5rem;
+}
+
+.mb-10 {
+  margin-bottom: 5.5rem;
+}
+
+body {
+  font-family: "eigerdals", sans-serif;
+  font-size: 1rem;
+  line-height: 1.6rem;
+}
+
+h2, h4 {
+  font-family: "Rubik Mono One", sans-serif;
+}
+
+h4 {
   letter-spacing: 0.02rem;
 }
 
 .subtitle-caps {
-  font-family: "Questrial", monospace;
   font-size: 1.5rem;
   text-transform: uppercase;
   letter-spacing: 0.06rem;
+}
+
+.bg-primary {
+  background-color: #FA5510 !important;
+}
+
+.text-primary {
+  color: #FA5510 !important;
+}
+
+.border-primary {
+  border-color: #FA5510 !important;
+}
+
+.bg-primary-hover {
+  background-color: #cc4105 !important;
+}
+
+.text-primary-hover {
+  color: #cc4105 !important;
+}
+
+.border-primary-hover {
+  border-color: #cc4105 !important;
+}
+
+.bg-secondary {
+  background-color: #4DA1CD !important;
+}
+
+.text-secondary {
+  color: #4DA1CD !important;
+}
+
+.border-secondary {
+  border-color: #4DA1CD !important;
+}
+
+.bg-secondary-hover {
+  background-color: #3c7da0 !important;
+}
+
+.text-secondary-hover {
+  color: #3c7da0 !important;
+}
+
+.border-secondary-hover {
+  border-color: #3c7da0 !important;
+}
+
+.bg-accent {
+  background-color: #E1AA19 !important;
+}
+
+.text-accent {
+  color: #E1AA19 !important;
+}
+
+.border-accent {
+  border-color: #E1AA19 !important;
+}
+
+.bg-accent-hover {
+  background-color: #b08313 !important;
+}
+
+.text-accent-hover {
+  color: #b08313 !important;
+}
+
+.border-accent-hover {
+  border-color: #b08313 !important;
+}
+
+.bg-light {
+  background-color: #F4F3EF !important;
+}
+
+.text-light {
+  color: #F4F3EF !important;
+}
+
+.border-light {
+  border-color: #F4F3EF !important;
+}
+
+.bg-light-70 {
+  background-color: rgba(244, 243, 239, 0.7764705882) !important;
+}
+
+.text-light-70 {
+  color: rgba(244, 243, 239, 0.7764705882) !important;
+}
+
+.border-light-70 {
+  border-color: rgba(244, 243, 239, 0.7764705882) !important;
+}
+
+.bg-light-50 {
+  background-color: rgba(244, 243, 239, 0.5529411765) !important;
+}
+
+.text-light-50 {
+  color: rgba(244, 243, 239, 0.5529411765) !important;
+}
+
+.border-light-50 {
+  border-color: rgba(244, 243, 239, 0.5529411765) !important;
+}
+
+.bg-dark {
+  background-color: #090808 !important;
+}
+
+.text-dark {
+  color: #090808 !important;
+}
+
+.border-dark {
+  border-color: #090808 !important;
+}
+
+.bg-dark-70 {
+  background-color: rgba(19, 19, 19, 0.7764705882) !important;
+}
+
+.text-dark-70 {
+  color: rgba(19, 19, 19, 0.7764705882) !important;
+}
+
+.border-dark-70 {
+  border-color: rgba(19, 19, 19, 0.7764705882) !important;
+}
+
+.bg-dark-50 {
+  background-color: rgba(19, 19, 19, 0.4784313725) !important;
+}
+
+.text-dark-50 {
+  color: rgba(19, 19, 19, 0.4784313725) !important;
+}
+
+.border-dark-50 {
+  border-color: rgba(19, 19, 19, 0.4784313725) !important;
+}
+
+.bg-black {
+  background-color: #000 !important;
+}
+
+.text-black {
+  color: #000 !important;
+}
+
+.border-black {
+  border-color: #000 !important;
 }
 
 a {
@@ -141,106 +483,55 @@ a {
   color: #F4F3EF;
   border: none;
 }
-
 a:hover {
   color: rgba(244, 243, 239, 0.5529411765);
 }
 
-button {
+button, button:hover {
   border: none;
   border-color: none;
 }
-
-button:hover {
-  border: none;
-}
-
 .btn-primary {
   border-color: none;
 }
-
 .btn-primary:hover {
   background-color: #cc4105;
 }
 
-html {
-  font-family: "Questrial", sans-serif;
-  line-height: 1.4rem;
-}
-
-h1 {
-  font-size: 2.9rem;
-  line-height: 3.7rem;
-}
-
-h2 {
-  font-family: "Rubik Mono One", sans-serif;
-  font-size: 1.8rem;
-  line-height: 2.2rem;
+nav .active, nav a:hover {
+  color: #FA5510;
+  border-bottom: #FA5510 solid 1px;
 }
 
 nav {
   position: fixed;
   padding: 0.5rem 0;
 }
-
 nav a {
   padding-bottom: 0.6rem;
   color: #F4F3EF;
   text-decoration: none;
   text-transform: uppercase;
-  letter-spacing: 0.05rem;
   font-size: 0.87rem;
+  line-height: 1.47rem;
+  letter-spacing: 0.05rem;
 }
-
-nav a:hover {
-  color: #FA5510;
-  border-bottom: #FA5510 solid 1px;
-}
-
-.nav-logo a:hover {
+nav .navbar-brand a:hover {
   border-bottom: none;
 }
 
-nav .active {
-  color: #FA5510;
-  border-bottom: #FA5510 solid 1px;
-}
-
-.footer-hero-img {
-  background: url("img/footer-img.jpeg");
-  background-size: cover;
-  background-position: center center;
-}
-
-.carousel-caption {
-  position: initial;
-  text-align: right;
-}
-
-.carousel-indicators {
-  justify-content: flex-start;
-}
-
 .dropdown-item:focus, .dropdown-item:hover {
-  color: #1e2125;
-  background-color: var(--orange);
+  color: #090808;
+  background-color: #FA5510;
 }
 
-.btn-primary {
-  background-color: var(--orange);
-  border-color: transparent;
-  text-decoration: none;
-  border-radius: 40px;
-  padding: 2% 4%;
-}
-
-.home-hero-title {
-  z-index: 2;
-  margin-top: 1%;
-  padding: 2% 5%;
-}
-
+/* .btn-primary {
+    background-color: $primary;
+    border-color: transparent;
+    text-decoration: none;
+    border-radius: 40px;
+    padding: 2% 4%;
+} */
 .clip-rombo {
   clip-path: polygon(50% 0%, 100% 50%, 50% 100%, 0% 50%);
 }
@@ -290,32 +581,19 @@ nav .active {
 .metodologiaRow {
   top: -2rem;
 }
+.metodologiaRow h3 {
+  font-family: "Rubik Mono One", sans-serif;
+}
 
 .title-marquee {
   position: relative;
   display: flex;
-  padding-left: 0;
-  padding-right: 0;
-  font-family: "Share Tech Mono", monospace;
-  text-transform: uppercase;
   align-items: center;
   overflow: hidden;
-}
-
-/* PORTAFOLIO.HTML */
-.portafolioBreadcrumb {
-  background: url("img/grabacion-de-videoclip-daniela-jatib-cromatic-films.jpg");
-  background-size: cover;
-  background-position: center center;
-  height: 19rem;
-}
-
-/* NOSOTROS.HTML */
-.nosotrosBreadcrumb {
-  background: url("img/grabacion-de-videoclip-daniela-jatib-cromatic-films.jpg");
-  background-size: cover;
-  background-position: center center;
-  height: 19rem;
+  padding: 0.5rem 0;
+  font-family: "Share Tech Mono", monospace;
+  text-transform: uppercase;
+  color: #F4F3EF;
 }
 
 .comoFuncionaSection__card {
@@ -351,17 +629,28 @@ nav .active {
   border-radius: 50%;
 }
 
-.serviciosBreadcrumb {
-  background-image: url("img/elige-tu-videoclip-img.jpg");
+@media (min-width: 768px) {
+  .serviciosSection__servicios:nth-child(odd) .serviciosSection__card {
+    margin-right: 2rem !important;
+  }
+}
+
+.serviciosBreadcrumb, .nosotrosBreadcrumb, .portafolioBreadcrumb {
   background-size: cover;
   background-position: center center;
   height: 19rem;
 }
 
-@media (min-width: 768px) {
-  .serviciosSection__servicios:nth-child(odd) .serviciosSection__card {
-    margin-right: 2rem !important;
-  }
+.portafolioBreadcrumb {
+  background-image: url("../img/grabacion-de-videoclip-daniela-jatib-cromatic-films.jpg");
+}
+
+.nosotrosBreadcrumb {
+  background-image: url("../img/grabacion-de-videoclip-daniela-jatib-cromatic-films.jpg");
+}
+
+.serviciosBreadcrumb {
+  background-image: url("../img/elige-tu-videoclip-img.jpg");
 }
 
 /*# sourceMappingURL=style.css.map */

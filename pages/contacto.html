@@ -5,6 +5,10 @@
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <title>Cromatic Films - Contacto</title>
+        <meta name="title" content="Cromatic Films - Contacto">
+        <meta name="description" content="Queremos conocerte, Somos Cromatic Films, producimos y distribuimos tu videoclip para lanzar tu próximo single, porque hacemos que tu música, se vea mejor.">
+        <meta name="keywords" content="videoclip, singles musicales, bandas chilenas, música chilena, industria musical">        
+  
 
         <!--Iconos-->
         <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.3/font/bootstrap-icons.css">
@@ -69,7 +73,7 @@
         <header>
             <section class="serviciosBreadcrumb container-fluid">
                 <div class="row align-items-end">
-                    <div class="title-marquee bg-blue text-white py-2">
+                    <div class="title-marquee bg-blue">
                         <div class="col d-none d-sm-block">Servicios</div>
                         <div class="col d-none d-sm-block">Servicios</div>
                         <div class="col">Servicios</div>
@@ -164,50 +168,11 @@
                 </div>
             </section>
     <!--END Servicios Cromatic-->
-    <!--**Adicionales Cromatic-->
-            <section class="adicionalesSection container py-3">
-                <div class="row justify-content-center align-items-center">
-                    <div class="adicionalesSection__header col-10 col-md-8 text-white-70 text-center">
-                        <h2 class="text-yellow">Servicios Adicionales</h2>
-                        <p><strong>Complementa tu Videoclip con algunos de nuestros add-ons</strong> especialmente pensados para agregar calidad, versatilidad o diferenciación a la idea que tienes en mente.</p>
-                    </div>
-                </div>
-                <div class="adicionalesSection__adicionales row justify-content-center align-content-center">
-                    <article class="col-10 col-sm-5 col-md-4 m-1 p-3 text-white bg-yellow">
-                        <h4 class="subtitle-caps">Entrega en 4K</h4>
-                        <p class="text-white-70">Normalmente entregamos todos los videoclips en 1080 o Full HD, si te gustaría tener tu versión en 4K puedes reservar este servicio adicional.
-                        </p>
-                        <hr>
-                        <p class="text-center">Valor:<br><h4 class="text-center subtitle-caps">$100.000</h4></p>
-                    </article>
-                    <article class="col-10 col-sm-5 col-md-4 m-1 p-3 text-white bg-yellow">
-                        <h4 class="subtitle-caps">Jornada Adicional de Grabación</h4>
-                        <p class="text-white-70">Si buscas un videoclip con un desarrollo de guión más complejo o que involucre más de 2 locaciones, necesitarás una jornada adicional para poder recoger todo el material. 
-                        </p>
-                        <hr>
-                        <p class="text-center">Valor:<br><h4 class="text-center subtitle-caps">$380.000</h4></p>
-                    </article>
-                    <article class="col-10 col-sm-5 col-md-4 m-1 p-3 text-white bg-yellow">
-                        <h4 class="subtitle-caps">Grabación con Drone</h4>
-                        <p class="text-white-70">Añade un dron con operador a la grabación de tu videoclip para obtener tomas desde una perspectiva diferente.
-                        </p>
-                        <hr>
-                        <p class="text-center">Valor:<br><h4 class="text-center subtitle-caps">$180.000</h4></p>
-                    </article>
-                    <article class="col-10 col-sm-5 col-md-4 m-1 p-3 text-white bg-yellow">
-                        <h4 class="subtitle-caps">Arriendo de Estudio</h4>
-                        <p class="text-white-70">Si tu video necesita iluminación especial o tratamiento con pantalla verde, debes considarar una jornada de arriendo de estudio, ello incluirá el arriendo de la parrilla de iluminación RGB.
-                        </p>
-                        <hr>
-                        <p class="text-center">Valor:<br><h4 class="text-center subtitle-caps">$280.000</h4></p>
-                    </article>
-                </div>
-            </section>
-    <!--END Adicionales Cromatic-->
+
         </main>
     <!-- END MAIN NOSOTROS-->
     <!--**Footer-->
-        <footer class="container-fluid footer-hero-img py-5">
+        <footer class="container-fluid py-5">
             <div class="row justify-content-center align-items-center py-5">
                 <div class="col-10 col-md-6 text-center">
                     <h2 class="h1 text-white">¿Ya tienes tu próximo single en mente?</h2>
@@ -230,6 +195,77 @@
                 <small class="col-12 text-center text-white-50">Copywriting 2022. Cromatic Films, Todos los derechos reservados</small>
             </div>
         </section>
+
+    <div class="main-contacto d-flex wrap justify-content-center">
+        <h2 class="w-1 display-1 text-white text-center">¿Ya tienes tu próximo single en mente?</h2>
+    </div>
+    <div class="form-container w-1">
+        <form action="envio.php">
+            <fieldset>
+                <legend>Sobre tí</legend>
+                <label for="name">Nombre Completo</label>
+                <input type="text" id="name"  placeholder="Eduardo López Pérez">
+                <br>
+                <label for="email">Email</label>
+                <input type="email" id="email" placeholder="mail@micorreo.cl">
+                <br>
+                <label for="proyecto-musical">¿Cómo se llama tu proyecto?</label>
+                <input type="text" id="project-name" placeholder="Rocket Band">
+                <br>
+                <label for="">Región</label>
+                <select name="región" id="">
+                    <option value="arica">Arica-Parinacota</option>
+                    <option value="tarapaca">Tarapacá</option>
+                    <option value="antofagasta">Antofagasta</option>
+                    <option value="atacama">Atacama</option>
+                    <option value="coquimbo">coquimbo</option>
+                    <option value="valparaiso">Valparaíso</option>
+                    <option value="metropolitana">Metropolitana</option>
+                    <option value="ohiggins">O'Higgins</option>
+                    <option value="maule">Maule</option>
+                    <option value="nuble">Ñuble</option>
+                    <option value="biobio">Bío-Bío</option>
+                    <option value="araucania">Araucanía</option>
+                    <option value="los-rios">Los Ríos</option>
+                    <option value="los-lagos">Los Lagos</option>
+                    <option value="aysen">Aysén</option>
+                    <option value="magallanes">Magallanes y Antártica Chilena</option>
+                </select>
+            </fieldset>
+            <fieldset>
+                <legend>¿Qué buscas?</legend>
+                <label for="producto">Videoclip Lite</label>
+                <input type="radio" name="producto" id="producto" value="producto">
+                <br>
+                <label for="producto">Videoclip Classic</label>
+                <input type="radio" name="producto" id="producto" value="producto">
+                <br>
+                <label for="producto">Videoclip Pro</label>
+                <input type="radio" name="producto" id="producto" value="producto">
+            </fieldset> 
+            <fieldset>
+                <legend>Agrega complementos a tu videoclip</legend>
+                <label for="complemento">Entrega en 4K</label>
+                <input type="checkbox" id="complemento" name="complemento" value="complemento">
+                <br>
+                <label for="complemento">Jornada Adicional de Grabación</label>
+                <input type="checkbox" id="complemento" name="complemento" value="complemento">
+                <br>
+                <label for="complemento">Grabación con Dron</label>
+                <input type="checkbox" id="complemento" name="complemento" value="complemento">
+                <br>
+                <label for="complemento">Fotógrafo de registro</label>
+                <input type="checkbox" id="complemento" name="complemento" value="complemento">
+                <br>
+            </fieldset>
+            <label for="mensaje">Cuéntanos más sobre tu proyecto</label>
+            <br>
+            <textarea name="" id="mensaje" cols="50" rows="8"></textarea>
+            <br>
+            <input type="submit" value="Enviar">
+            <input type="reset" value="Cancelar">
+        </form>
+    </div>
     <!--**Scripts-->     
     <!-- Bootstrap JS -->
         <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.5/dist/umd/popper.min.js" integrity="sha384-Xe+8cL9oJa6tN/veChSP7q+mnSPaj5Bcu9mPX5F5xIGE0DVittaqT5lorf0EI7Vk" crossorigin="anonymous"></script>
@@ -248,120 +284,3 @@
 
 
 
-
-
-
-
-
-
-
-___________________________________________________
-
-<!DOCTYPE html>
-<html lang="es-CL">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <!--Iconos-->
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.3/font/bootstrap-icons.css">
-    <!--Hojas de Estilo-->
-    <link rel="stylesheet" href="../style.css">
-    <title>Cromatic Films - Contacto</title>
-</head>
-    <body>
-        <nav class="w-1 d-flex justify-content-between">
-            <div class="nav-logo">
-                <a href="index.html"><img class="img-60" src="../img/cromatic-films-logo-white.svg" alt="Logotipo Cromatic Films"></a>
-            </div>
-            <ul class="d-flex">
-                <li><a href="../index.html">Home</a></li>
-                <li><a href="nosotros.html">Nosotros</a></li>
-                <li><a href="servicios.html">Servicios</a></li>
-                <li><a href="portafolio.html">Portafolio</a></li>
-                <li><a class="active" href="contacto.html">Contacto</a></li>
-            </ul>
-        </nav>
-        <main class="footer-hero-img">
-            <div class="main-contacto d-flex wrap justify-content-center">
-                <h2 class="w-1 display-1 text-white text-center">¿Ya tienes tu próximo single en mente?</h2>
-            </div>
-            <div class="form-container w-1">
-                <form action="envio.php">
-                    <fieldset>
-                        <legend>Sobre tí</legend>
-                        <label for="name">Nombre Completo</label>
-                        <input type="text" id="name"  placeholder="Eduardo López Pérez">
-                        <br>
-                        <label for="email">Email</label>
-                        <input type="email" id="email" placeholder="mail@micorreo.cl">
-                        <br>
-                        <label for="proyecto-musical">¿Cómo se llama tu proyecto?</label>
-                        <input type="text" id="project-name" placeholder="Rocket Band">
-                        <br>
-                        <label for="">Región</label>
-                        <select name="región" id="">
-                            <option value="arica">Arica-Parinacota</option>
-                            <option value="tarapaca">Tarapacá</option>
-                            <option value="antofagasta">Antofagasta</option>
-                            <option value="atacama">Atacama</option>
-                            <option value="coquimbo">coquimbo</option>
-                            <option value="valparaiso">Valparaíso</option>
-                            <option value="metropolitana">Metropolitana</option>
-                            <option value="ohiggins">O'Higgins</option>
-                            <option value="maule">Maule</option>
-                            <option value="nuble">Ñuble</option>
-                            <option value="biobio">Bío-Bío</option>
-                            <option value="araucania">Araucanía</option>
-                            <option value="los-rios">Los Ríos</option>
-                            <option value="los-lagos">Los Lagos</option>
-                            <option value="aysen">Aysén</option>
-                            <option value="magallanes">Magallanes y Antártica Chilena</option>
-                        </select>
-                    </fieldset>
-                    <fieldset>
-                        <legend>¿Qué buscas?</legend>
-                        <label for="producto">Videoclip Lite</label>
-                        <input type="radio" name="producto" id="producto" value="producto">
-                        <br>
-                        <label for="producto">Videoclip Classic</label>
-                        <input type="radio" name="producto" id="producto" value="producto">
-                        <br>
-                        <label for="producto">Videoclip Pro</label>
-                        <input type="radio" name="producto" id="producto" value="producto">
-                    </fieldset> 
-                    <fieldset>
-                        <legend>Agrega complementos a tu videoclip</legend>
-                        <label for="complemento">Entrega en 4K</label>
-                        <input type="checkbox" id="complemento" name="complemento" value="complemento">
-                        <br>
-                        <label for="complemento">Jornada Adicional de Grabación</label>
-                        <input type="checkbox" id="complemento" name="complemento" value="complemento">
-                        <br>
-                        <label for="complemento">Grabación con Dron</label>
-                        <input type="checkbox" id="complemento" name="complemento" value="complemento">
-                        <br>
-                        <label for="complemento">Fotógrafo de registro</label>
-                        <input type="checkbox" id="complemento" name="complemento" value="complemento">
-                        <br>
-                    </fieldset>
-                    <label for="mensaje">Cuéntanos más sobre tu proyecto</label>
-                    <br>
-                    <textarea name="" id="mensaje" cols="50" rows="8"></textarea>
-                    <br>
-                    <input type="submit" value="Enviar">
-                    <input type="reset" value="Cancelar">
-                </form>
-            </div>
-        </main>
-        <footer class="contacto-footer bg-dark">
-            <div class="footer-redes d-flex wrap align-items-center justify-content-center h-15">
-                <h4 class="w-1 text-white text-center">Encuéntranos también en redes sociales</h4>
-                <a href="https://www.instagram.com/cromatic.film/" target="_blank"><i class="text-white bi bi-instagram"></i></a>
-                <a href="https://vimeo.com/showcase/8887943" target="_blank"><i class="text-white bi bi-vimeo"></i></a>
-                <a href="mailto:cromatic.film@gmail.com"><i class="text-white bi bi-envelope"></i></a>
-                <address class="w-1 text-white-70 text-center">Providencia, Santiago de Chile</address>
-            </div>
-            <small class="w-1 text-center text-white-50">Copywriting 2022. Cromatic Films, Todos los derechos reservados</small>
-        </footer>
-    </body>
-</html>

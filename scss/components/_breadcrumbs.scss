@@ -1,0 +1,22 @@
+//BREADCRUMBS
+
+%bgBreadcrumb{
+    background-size: cover;
+    background-position: center center;
+    height: 19rem;
+}
+
+@mixin breadcrumb ($imgUrl) {
+    background-image: url('../img/' + $imgUrl);
+    @extend %bgBreadcrumb;
+}
+
+.portafolioBreadcrumb{
+    @include breadcrumb('grabacion-de-videoclip-daniela-jatib-cromatic-films.jpg');
+}
+.nosotrosBreadcrumb{
+    @include breadcrumb('grabacion-de-videoclip-daniela-jatib-cromatic-films.jpg');
+}
+.serviciosBreadcrumb{
+    @include breadcrumb('elige-tu-videoclip-img.jpg');
+}

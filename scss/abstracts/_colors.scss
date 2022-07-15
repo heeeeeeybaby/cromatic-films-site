@@ -1,0 +1,43 @@
+// Variables de colores
+$primary:#FA5510;
+$primary-hover:#cc4105;
+$secondary:#4DA1CD;
+$secondary-hover:#3c7da0;
+$accent:#E1AA19;
+$accent-hover:#b08313;
+$light:#F4F3EF;
+$light-70:#f4f3efc6;
+$light-50:#f4f3ef8d;
+$dark: #090808;
+$dark-70:#131313c6;
+$dark-50:#1313137a;
+$black: #000;
+
+// Maps de colores
+$colors:(
+    "primary":#FA5510,
+    "primary-hover":#cc4105,
+    "secondary":#4DA1CD,
+    "secondary-hover":#3c7da0,
+    "accent":#E1AA19,
+    "accent-hover":#b08313,
+    "light":#F4F3EF,
+    "light-70":#f4f3efc6,
+    "light-50":#f4f3ef8d,
+    "dark":#090808,
+    "dark-70":#131313c6,
+    "dark-50":#1313137a,
+    "black": #000
+    );
+
+    @each $key, $color in $colors {
+        .bg-#{$key}{
+            background-color: $color !important;
+        }
+        .text-#{$key}{
+            color: $color !important;
+        }
+        .border-#{$key}{
+            border-color: $color !important;
+        }
+    }

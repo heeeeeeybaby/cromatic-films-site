@@ -1,7 +1,9 @@
-@import "./general/_reset.scss";
-@import "./general/_variables.scss";
-@import "./general/mixins";
-@import "./general/_utilities.scss";
-@import "./general/_general.scss";
-@import "./pages/_bs-reset.scss";
-@import "./pages/_pages.scss";
+@import "./abstracts/_reset.scss";
+@import "./abstracts/_utilities.scss";
+@import "./abstracts/_breakpoints";
+@import "./abstracts/_tipography.scss";
+@import "./abstracts/_colors.scss";
+@import "./abstracts/_general.scss";
+@import "./components/_bs-reset.scss";
+@import "./components/_pages.scss";
+@import "./components/_breadcrumbs.scss";

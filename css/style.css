@@ -488,8 +488,8 @@ a:hover {
 }
 
 button, button:hover {
-  border: none;
-  border-color: none;
+  border: none !important;
+  border-color: none !important;
 }
 .btn-primary {
   border-color: none;
@@ -498,7 +498,7 @@ button, button:hover {
   background-color: #cc4105;
 }
 
-nav .active, nav a:hover {
+.active, nav a:hover {
   color: #FA5510;
   border-bottom: #FA5510 solid 1px;
 }
@@ -516,7 +516,11 @@ nav a {
   line-height: 1.47rem;
   letter-spacing: 0.05rem;
 }
-nav .navbar-brand a:hover {
+nav .footerNav .nav-link {
+  color: #F4F3EF;
+}
+
+.navbar-brand a:hover {
   border-bottom: none;
 }
 
@@ -525,15 +529,12 @@ nav .navbar-brand a:hover {
   background-color: #FA5510;
 }
 
-/* .btn-primary {
-    background-color: $primary;
-    border-color: transparent;
-    text-decoration: none;
-    border-radius: 40px;
-    padding: 2% 4%;
-} */
-.clip-rombo {
-  clip-path: polygon(50% 0%, 100% 50%, 50% 100%, 0% 50%);
+.btn-primary {
+  background-color: #FA5510 !important;
+  border-color: transparent;
+  text-decoration: none;
+  border-radius: 40px;
+  padding: 2% 4%;
 }
 
 .playerHome {
@@ -635,7 +636,7 @@ nav .navbar-brand a:hover {
   }
 }
 
-.serviciosBreadcrumb, .nosotrosBreadcrumb, .portafolioBreadcrumb {
+.contactoBreadcrumb, .serviciosBreadcrumb, .nosotrosBreadcrumb, .portafolioBreadcrumb {
   background-size: cover;
   background-position: center center;
   height: 19rem;
@@ -651,6 +652,10 @@ nav .navbar-brand a:hover {
 
 .serviciosBreadcrumb {
   background-image: url("../img/elige-tu-videoclip-img.jpg");
+}
+
+.contactoBreadcrumb {
+  background-image: url("../img/grabacion-de-videoclip-daniela-jatib-cromatic-films.jpg");
 }
 
 /*# sourceMappingURL=style.css.map */

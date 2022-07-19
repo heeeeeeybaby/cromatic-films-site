@@ -8,8 +8,8 @@ a{
 }
 
 button {
-    border: none;
-    border-color: none;
+    border: none !important;
+    border-color: none !important;
         &:hover{
             @extend button;
         }
@@ -42,8 +42,12 @@ nav{
         @include font-face(0.87rem);
         letter-spacing: 0.05rem;
 
-        &:hover{
-            @extend %color-primary;
+            &:hover{
+                @extend %color-primary;
+            }
+        }
+    .footerNav .nav-link{
+        color: $light;
         }
     }
 
@@ -53,5 +57,3 @@ nav{
     .navbar-brand a:hover{
         border-bottom: none;
     }
-
-}

@@ -4,10 +4,10 @@
     color: $dark;
     background-color: $primary;
 }
-/* .btn-primary {
-    background-color: $primary;
+.btn-primary {
+    background-color: $primary !important;
     border-color: transparent;
     text-decoration: none;
     border-radius: 40px;
     padding: 2% 4%;
-} */
+}

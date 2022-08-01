@@ -86,15 +86,9 @@
             </div>
         </header>
     <!--END Header HOME-->
-    <!--**Player-->
-        <div class="playerHome d-flex rounded-pill align-items-center justify-content-center fixed-bottom col-3 col-sm-2 col-lg-2 col-xl-1 bg-accent text-dark px-2 py-2">
-            <div class="px-1"><i class="bi bi-play-fill"></i></div>
-            <div class="px-1 uppercase"><h6>Player</h6></div>
-        </div>
-    <!--END Player-->
     <!--**MAIN HOME-->
         <main>
-            <section class="metodologiaSection container pb-8 mt-2">
+            <section class="metodologiaSection container pb-8 mt-5">
                 <div class="row justify-content-center">
                     <div class="col-10 col-md-8 text-center text-light-70">
                         <h3>En Cromatic Films nos dedicamos a la producción, grabación, edición y distribución digital de tu videoclip. Si se puede escuchar, también se puede ver.</h3>
@@ -126,12 +120,12 @@
                     </div>
                 </div>
             </section>
-            <section class="portafolioSection container-fluid">
+            <section class="portafolioSection container-fluid pb-4">
                 <div class="title-marquee bg-secondary">
-                        <div class="col">Videos</div>
-                        <div class="col">Videos</div>
-                        <div class="col">Videos</div>
-                        <div class="col">Videos</div>
+                        <div class="col d-none d-sm-block">Videos</div>
+                        <div class="col d-none d-sm-block">Videos</div>
+                        <div class="col d-none d-sm-block">Videos</div>
+                        <div class="col d-none d-sm-block">Videos</div>
                         <div class="col">Videos</div>
                         <div class="col">Videos</div>
                         <div class="col">Videos</div>
@@ -151,7 +145,7 @@
                             <p>Este recién estrenado videoclip combina texturas, colores y efectos de luz para crear una experiencia sensorial que conecta con la canción. </p>
                         </figcaption>
                     </div>
-                    <div class="row">
+                    <div class="row mb-4">
                         <article class="col-12 col-md-6 text-light-50 px-4">
                             <div class="ratio ratio-16x9">
                                 <iframe src="https://www.youtube.com/embed/XCb2HcnoCY4" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
@@ -173,7 +167,7 @@
     <!--END MAIN HOME-->
     <!--**Footer-->
         <footer class="container py-9">
-            <div class="row justify-content-center align-items-center">
+            <div class="row justify-content-center align-items-start">
                 <div class="col-10 col-md-4 text-left text-light-50">
 
                     <a class="navbar-brand" href="index.html"><img src="img/cromatic-films-logo-white.svg" class="img-50 mb-3" alt="Logotipo Cromatic Films"></a>
@@ -182,7 +176,8 @@
                         <a class="text-light" href="pages/contacto.html">Contáctanos</a>
                     </button>
                 </div>
-                <nav class="footerNav col-10 col-md-4" aria-label="secondary">
+                <div class="footerNav col-10 col-md-2">
+                    <p class="text-light"><i class="bi bi-menu-up text-primary"></i> Menú</p>
                     <ul class="nav flex-column">
                         <li class="nav-item"><a class="nav-link" aria-current="page" href="index.html">Home</a></li>
                         <li class="nav-item"><a class="nav-link" href="pages/nosotros.html">Nosotros</a></li>
@@ -190,14 +185,27 @@
                         <li class="nav-item"><a class="nav-link" href="pages/portafolio.html">Portafolio</a></li>
                         <li class="nav-item"><a class="nav-link" href="pages/contacto.html">Contacto</a></li>
                     </ul>
-                </nav>                
-                <div class="col-10 col-md-4 text-center">
-                    <h4 class="text-light">Síguenos en redes sociales</h4>
+                </div>
+                <div class="footerServiciosNav col-10 col-md-2">
+                    <p class="text-light"><i class="bi bi-film text-secondary"></i> Servicios</p>
+                    <ul class="nav flex-column">
+                        <li class="nav-item"><a class="nav-link" href="#">Videoclip Lite</a></li>
+                        <li class="nav-item"><a class="nav-link" href="#">Videoclip Classic</a></li>
+                        <li class="nav-item"><a class="nav-link" href="#">Cine Videoclip</a></li>
+                        <li class="nav-item"><a class="nav-link" href="#">Live Sessions</a></li>
+                    </ul>
+                </div>                
+                <div class="col-10 col-md-4 text-center align-self-center">
+                    <h4 class="text-light">Síguenos en <span class="text-primary">redes sociales</span></h4>
                     <a href="https://www.instagram.com/cromatic.film/" target="_blank"><i class="text-light bi bi-instagram"></i></a>
                     <a href="https://vimeo.com/showcase/8887943" target="_blank"><i class="text-light bi bi-vimeo"></i></a>
                     <a href="mailto:cromatic.film@gmail.com"><i class="text-light bi bi-envelope"></i></a>
+                    <address class="text-light-70">
+                        <a href="mailto:cromatic.film@gmail.com">cromatic.film@gmail.com</a><br>
+                        <a href="tel:+56977566045">+56977566045</a>
+                        <p>Providencia, Santiago de Chile</p> 
+                    </address>
 
-                    <address class="w-1 text-light-70 text-center">Providencia, Santiago de Chile</address>
                 </div>
             </div>
         </footer>

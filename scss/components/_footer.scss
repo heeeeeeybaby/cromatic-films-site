@@ -1,0 +1,11 @@
+footer{
+    .footerNav.nav-link{
+        color: $light;
+        &:hover{
+            color: $light-70 !important;
+        }
+    .footerServiciosNav.nav-link{
+        @extend .footerNav.nav-link;
+    }
+    }
+}

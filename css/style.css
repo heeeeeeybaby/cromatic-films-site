@@ -537,6 +537,13 @@ nav .footerNav .nav-link {
   padding: 2% 4%;
 }
 
+.nav-link {
+  color: rgba(244, 243, 239, 0.5529411765);
+}
+.nav-link:hover {
+  color: #F4F3EF;
+}
+
 .playerHome {
   bottom: 5rem;
   left: 29rem !important;

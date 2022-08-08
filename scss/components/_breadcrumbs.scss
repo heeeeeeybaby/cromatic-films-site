@@ -15,7 +15,8 @@
     @include breadcrumb('grabacion-de-videoclip-daniela-jatib-cromatic-films.jpg');
 }
 .nosotrosBreadcrumb{
-    @include breadcrumb('grabacion-de-videoclip-daniela-jatib-cromatic-films.jpg');
+    @include breadcrumb('sobre-nosotros-cromatic-films-videoclips.jpg');
+    background-position: top;
 }
 .serviciosBreadcrumb{
     @include breadcrumb('elige-tu-videoclip-img.jpg');

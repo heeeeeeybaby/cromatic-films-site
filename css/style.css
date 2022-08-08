@@ -529,12 +529,20 @@ nav .footerNav .nav-link {
   background-color: #FA5510;
 }
 
-.btn-primary {
-  background-color: #FA5510 !important;
+.btn-secondary, .btn-primary {
+  background-color: none;
   border-color: transparent;
   text-decoration: none;
   border-radius: 40px;
   padding: 2% 4%;
+}
+
+.btn-primary {
+  background-color: 1px solid #FA5510 !important;
+}
+
+.btn-secondary {
+  border: 1px solid rgba(244, 243, 239, 0.5529411765) !important;
 }
 
 .nav-link {
@@ -654,7 +662,8 @@ nav .footerNav .nav-link {
 }
 
 .nosotrosBreadcrumb {
-  background-image: url("../img/grabacion-de-videoclip-daniela-jatib-cromatic-films.jpg");
+  background-image: url("../img/sobre-nosotros-cromatic-films-videoclips.jpg");
+  background-position: top;
 }
 
 .serviciosBreadcrumb {

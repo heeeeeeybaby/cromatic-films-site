@@ -4,12 +4,23 @@
     color: $dark;
     background-color: $primary;
 }
-.btn-primary {
-    background-color: $primary !important;
+
+%button{
+    background-color: none;
     border-color: transparent;
     text-decoration: none;
     border-radius: 40px;
     padding: 2% 4%;
+}
+.btn-primary {
+    @extend %button;
+    background-color: 1px solid $primary !important;
+
+}
+.btn-secondary{
+    @extend %button;
+    border: 1px solid $light-50 !important;
+
 }
 
 .nav-link {

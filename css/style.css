@@ -519,6 +519,9 @@ nav a {
 nav .footerNav .nav-link {
   color: #F4F3EF;
 }
+nav .dropdown-menu li:last-child {
+  padding-left: 13px;
+}
 
 .navbar-brand a:hover {
   border-bottom: none;
@@ -550,48 +553,6 @@ nav .footerNav .nav-link {
 }
 .nav-link:hover {
   color: #F4F3EF;
-}
-
-.playerHome {
-  bottom: 5rem;
-  left: 29rem !important;
-  transform: rotate(-90deg);
-}
-@media (min-width: 576px) {
-  .playerHome {
-    bottom: 4rem;
-    left: 35rem !important;
-  }
-}
-@media (min-width: 608px) and (max-width: 690px) {
-  .playerHome {
-    bottom: 4rem;
-    left: 32rem !important;
-  }
-}
-@media (min-width: 768px) {
-  .playerHome {
-    bottom: 5rem;
-    left: 41rem !important;
-  }
-}
-@media (min-width: 992px) {
-  .playerHome {
-    bottom: 6rem;
-    left: 65rem !important;
-  }
-}
-@media (min-width: 1200px) {
-  .playerHome {
-    bottom: 3rem;
-    left: 67rem !important;
-  }
-}
-@media (min-width: 1400px) {
-  .playerHome {
-    bottom: 5rem;
-    left: 79rem !important;
-  }
 }
 
 .metodologiaRow {

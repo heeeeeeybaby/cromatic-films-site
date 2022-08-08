@@ -1,35 +1,3 @@
-.playerHome {
-    bottom: 5rem;
-    left: 29rem !important;
-    transform: rotate(-90deg);
-
-    @include small {
-        bottom: 4rem;
-        left: 35rem !important;
-    }
-    @include small-bug{
-        bottom: 4rem;
-        left: 32rem !important;
-    }
-    @include tablet {
-        bottom: 5rem;
-        left: 41rem !important;
-    }
-    @include large{
-        bottom: 6rem;
-        left: 65rem !important;
-    }
-    @include extraLarge{
-        bottom: 3rem;
-        left: 67rem !important;
-    }
-    @include extraXLarge{
-        bottom: 5rem;
-        left: 79rem !important;
-    }
-
-}
-
 .metodologiaRow{
     top: -2rem;
     h3{

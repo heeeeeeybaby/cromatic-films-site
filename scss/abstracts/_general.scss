@@ -49,6 +49,9 @@ nav{
     .footerNav .nav-link{
         color: $light;
         }
+    & .dropdown-menu li:last-child{
+        padding-left: 13px;
+        }
     }
 
     .active{
